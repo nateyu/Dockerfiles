@@ -1,5 +1,5 @@
-# /bin/env bash
+# /bin/env sh
 if [ -f ./package.sh ]; then
   echo "package.sh script exists!"
-  ./package.sh
+  sh ./package.sh
 fi
