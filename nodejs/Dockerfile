@@ -4,4 +4,4 @@ WORKDIR /app
 COPY . .
 RUN npm install
 
-CMD [ "/bin/bash", "./start.sh" ]
+CMD [ "/bin/sh", "./start.sh" ]
